@@ -44,8 +44,8 @@ RUN set -ex \
   && pip list \
   && rm -rf /builder
 
-WORKDIR /root/dr_py
-VOLUME /root/dr_py
+WORKDIR /
+VOLUME /
 
 ENV PYTHONUNBUFFERED=1
 ENV AUTOUPDATE=
